@@ -13,4 +13,6 @@ function playRound(playerSelection, computerSelection) {
         scissor: 'paper',
     }
 
+    if (playerChoice === computerSelection.toLowerCase())
+
 }
