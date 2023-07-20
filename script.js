@@ -21,4 +21,19 @@ function playRound(playerSelection, computerSelection) {
         return `You win! ${playerChoice} beats ${computerSelection}`
     }
 
+    return `oh no! You Lose! ${computerSelection} beats ${playerChoice}.`
 }
+function game() {
+    let playerScore = 0;
+    let computerScore = 0;
+
+    for (let round = 0; round < 5; round++) {
+        const playerSelection = prompt("Enter your choice (Rock, Paper, and Scissors):");
+        const computerSelection = getComputerChoice();
+        const result = playRound(playerSelection, computerSelection);
+        console.log(result);
+    }
+
+}
+
+console.log(game());
