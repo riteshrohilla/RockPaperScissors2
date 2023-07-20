@@ -13,6 +13,10 @@ function playRound(playerSelection, computerSelection) {
         scissor: 'paper',
     }
 
-    if (playerChoice === computerSelection.toLowerCase())
+    if (playerChoice === computerSelection.toLowerCase()) {
+        return "It's a tie"
+    }
+
+    if (winningConditions[playerChoice])
 
 }
