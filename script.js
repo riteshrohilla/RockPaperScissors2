@@ -37,3 +37,6 @@ function game() {
 // }
 
 console.log(game());
+
+
+document.createElement(#div);
