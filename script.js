@@ -40,4 +40,3 @@ console.log(game());
 
 
 document.createElement(#div);
-document.createElement(#div);   
