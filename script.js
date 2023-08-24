@@ -33,9 +33,7 @@ function game() {
     const result = playRound(playerSelection, computerSelection);
     console.log(result);
 }
-
 // }
-
 console.log(game());
 
 document.querySelector('.rock').addEventListener('click', function () {
