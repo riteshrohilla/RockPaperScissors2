@@ -40,4 +40,10 @@ function game() {
 
 console.log(game());
 
-document.querySelector('.rock').addEventListener('click', function ())
+// document.querySelector('.rock').addEventListener('click', function ())
+
+
+document.querySelector('.rock').addEventListener('click', function () {
+    document.querySelector
+    console.log(guess, typeof guess);
+});
