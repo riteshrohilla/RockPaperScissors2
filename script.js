@@ -4,7 +4,9 @@ function getComputerChoice() {
     return choices[randomIndex];
 }
 
-function playRound(playerSelection, computerSelection) {
+// document.querySelector('.rock').addEventListener('click', function ())
+
+document.querySelector('.rock').addEventListener('click', function playRound(playerSelection, computerSelection) {
     let playerChoice = playerSelection.toLowerCase();
 
     let winningConditions = {
@@ -22,7 +24,7 @@ function playRound(playerSelection, computerSelection) {
     }
 
     return `oh no! You Lose! ${computerSelection} beats ${playerChoice}.`
-}
+});
 function game() {
     let playerScore = 0;
     let computerScore = 0;
