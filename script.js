@@ -4,8 +4,6 @@ function getComputerChoice() {
     return choices[randomIndex];
 }
 
-// document.querySelector('.rock').addEventListener('click', function ())
-
 document.querySelector('.rock').addEventListener('click', function playRound(playerSelection, computerSelection) {
     let playerChoice = playerSelection.toLowerCase();
 
