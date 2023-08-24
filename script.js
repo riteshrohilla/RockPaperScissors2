@@ -37,5 +37,3 @@ function game() {
 // }
 
 console.log(game());
-
-document.querySelector(".rock")
