@@ -4,7 +4,7 @@ function getComputerChoice() {
     return choices[randomIndex];
 }
 
-document.querySelector('.rock').addEventListener('click', function playRound(playerSelection, computerSelection) {
+function playRound(playerSelection, computerSelection) {
     let playerChoice = playerSelection.toLowerCase();
 
     let winningConditions = {
@@ -22,7 +22,7 @@ document.querySelector('.rock').addEventListener('click', function playRound(pla
     }
 
     return `oh no! You Lose! ${computerSelection} beats ${playerChoice}.`
-});
+};
 function game() {
     let playerScore = 0;
     let computerScore = 0;
@@ -37,9 +37,6 @@ function game() {
 // }
 
 console.log(game());
-
-// document.querySelector('.rock').addEventListener('click', function ())
-
 
 document.querySelector('.rock').addEventListener('click', function () {
     document.querySelector
