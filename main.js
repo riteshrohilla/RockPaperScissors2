@@ -11,5 +11,7 @@ function playRound(playerSelection, computerSelection) {
         paper: 'rock',
         scissors: 'paper',
     }
-
+    if (playerChoice === computerSelection.toLowerCase()) {
+        return "It's tie"
+    }
 }
