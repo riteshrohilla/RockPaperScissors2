@@ -10,7 +10,7 @@ function playRound(playerSelection, computerSelection) {
     let winningConditions = {
         rock: 'scissors',
         paper: 'rock',
-        scissor: 'paper',
+        scissors: 'paper',
     }
 
     if (playerChoice === computerSelection.toLowerCase()) {

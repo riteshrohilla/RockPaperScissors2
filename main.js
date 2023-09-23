@@ -6,11 +6,13 @@ function getComputerChoice() {
 
 function playRound(playerSelection, computerSelection) {
     let playerChoice = playerSelection.toLowerCase();
+
     let winningConditions = {
         rock: 'scissors',
         paper: 'rock',
         scissors: 'paper',
     }
+
     if (playerChoice === computerSelection.toLowerCase()) {
         return "It's tie"
     }
