@@ -14,11 +14,17 @@ function playRound(playerSelection, computerSelection) {
     }
 
     if (playerChoice === computerSelection.toLowerCase()) {
-        return "It's a tie!🤨"
+        return "It's a tie!🤨 You should play again..."
     }
 
     if (winningConditions[playerChoice] ===
         computerSelection.toLowerCase()) {
-        `return`
+        return `You win!🎉 ${playerChoice} beats ${computerSelection}`
     }
+
+    return `Oh no! You lose!😢 ${computerSelection} beats ${playerChoice}`
 }
+
+const playerSelection = "rock";
+const computerSelection = getComputerChoice();
+console.log(playRound(playerSelection, computerSelection));
