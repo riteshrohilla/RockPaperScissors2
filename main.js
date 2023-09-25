@@ -28,10 +28,26 @@ function game() {
         const result = playRound(playerSelection, computerSelection);
 
         console.log(result);
+
+        if (result.startsWith('You win ')) {
+            playerScore++;
+        } else if (result.startsWith('You lose ')) {
+            computerScore++;
+        }
+    }
+
+    if (playerScore > computerScore) {
+        console.log('Congratulations! You win the game.');
+    } else if (playerScore < computerScore) {
+        console.log('Sorry, you lose the game');
+    } else {
+        console.log("It's a tie game");
     }
 
 }
 
-const playerSelection = "rock";
-const computerSelection = getComputerChoice();
-console.log(playRound(playerSelection, computerSelection));
+// const playerSelection = "rock";
+// const computerSelection = getComputerChoice();
+// console.log(playRound(playerSelection, computerSelection));
+
+game();
