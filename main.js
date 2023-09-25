@@ -16,4 +16,9 @@ function playRound(playerSelection, computerSelection) {
     if (playerChoice === computerSelection.toLowerCase()) {
         return "It's a tie"
     }
+
+    if (winningConditions[playerChoice] === computerSelection.toLowerCase()) {
+        return `You win ${playerChoice} beats ${computerSelection} `
+    }
+    return `oh no! you lose ${computerSelection} beats  `
 }
