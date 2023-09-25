@@ -25,8 +25,16 @@ function playRound(playerSelection, computerSelection) {
     return `Oh no! You lose!😢 ${computerSelection} beats ${playerChoice}`
 }
 
+function game() {
+    playerChoice = 0;
+    computerSelection = 0;
+
+    for (let round = 0; round < 5; round++) {
+        console.log("Playing game 5 times");
+    }
+}
 
 
-// const playerSelection = "rock";
-// const computerSelection = getComputerChoice();
-// console.log(playRound(playerSelection, computerSelection));
+const playerSelection = "rock";
+const computerSelection = getComputerChoice();
+console.log(playRound(playerSelection, computerSelection));
