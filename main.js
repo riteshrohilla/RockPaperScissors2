@@ -16,4 +16,6 @@ function playRound(playerSelection, computerSelection) {
     if (playerChoice === computerSelection.toLowerCase()) {
         return "It's a tie!🤨"
     }
+
+    if (winningConditions[playerChoice] === )
 }
