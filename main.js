@@ -54,3 +54,5 @@ const
     // console.log(playRound(playerSelection, computerSelection));
 
     game();
+
+console.log(game);
