@@ -55,3 +55,4 @@ const
 
     game();
 
+console.log(game());
