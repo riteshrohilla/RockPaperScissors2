@@ -47,12 +47,16 @@ function game() {
 
 }
 
-const
 
-    // const playerSelection = "rock";
-    // const computerSelection = getComputerChoice();
-    // console.log(playRound(playerSelection, computerSelection));
 
-    game();
+// const playerSelection = "rock";
+// const computerSelection = getComputerChoice();
+// console.log(playRound(playerSelection, computerSelection));
 
-const button = document.createElement("button")
+document.addEventListener("")
+var button = document.createElement("button");
+button.textContent = "Click Me!"
+button.addEventListener("click", function () {
+    alert("Button Clicked")
+});
+document.body.appendChild(button)
