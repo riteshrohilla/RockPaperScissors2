@@ -55,4 +55,4 @@ const
 
     game();
 
-console.log(game);
+const button = document.createElement("button")
