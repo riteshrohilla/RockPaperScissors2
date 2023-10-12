@@ -57,6 +57,6 @@ function game() {
 var button = document.createElement("button");
 button.textContent = "Rock"
 button.addEventListener("click", function () {
-    alert("Button Clicked")
+    game();
 });
 document.body.appendChild(button)
