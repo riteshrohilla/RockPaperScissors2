@@ -54,3 +54,17 @@ button.addEventListener("click", function () {
     game();
 });
 document.body.appendChild(button)
+
+var button = document.createElement("button");
+button.textContent = "Paper"
+button.addEventListener("click", function () {
+    game();
+});
+document.body.appendChild(button)
+
+var button = document.createElement("button");
+button.textContent = "Rock"
+button.addEventListener("click", function () {
+    game();
+});
+document.body.appendChild(button)
