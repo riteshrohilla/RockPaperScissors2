@@ -63,7 +63,7 @@ button.addEventListener("click", function () {
 document.body.appendChild(button)
 
 var button = document.createElement("button");
-button.textContent = "Rock"
+button.textContent = "Scissor"
 button.addEventListener("click", function () {
     game();
 });
