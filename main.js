@@ -22,7 +22,7 @@ function game() {
     let playerScore = 0;
     let computerScore = 0;
 
-    /*
+
     for (let i = 0; i < 5; i++) {
         const playerSelection = prompt('Enter your choice (Rock, Paper, or Scissors): ');
         const computerSelection = getComputerChoice();
@@ -36,7 +36,7 @@ function game() {
             computerScore++;
         }
     }
-*/
+
     if (playerScore > computerScore) {
         console.log('Congratulations! You win the game.');
     } else if (playerScore < computerScore) {
@@ -48,12 +48,6 @@ function game() {
 }
 
 
-
-// const playerSelection = "rock";
-// const computerSelection = getComputerChoice();
-// console.log(playRound(playerSelection, computerSelection));
-
-// document.addEventListener("")
 var button = document.createElement("button");
 button.textContent = "Rock"
 button.addEventListener("click", function () {
