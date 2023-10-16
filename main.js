@@ -49,7 +49,7 @@ function game() {
 }
 
 
-console.log(document.querySelector('.message').textContent = 'A Game');
+console.log(document.querySelector('.message').textContent = 'A game buttons.');
 
 
 var button = document.createElement("button");
