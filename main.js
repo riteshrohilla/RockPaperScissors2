@@ -52,25 +52,32 @@ function game() {
 console.log(document.querySelector('.message').textContent = 'A game buttons.');
 
 // Rock button
+// var button = document.createElement("button");
+// button.textContent = "Rock"
+// button.addEventListener("click", function () {
+//     game();
+// });
+// document.body.appendChild(button)
+
+// //Paper button
+// var button = document.createElement("button");
+// button.textContent = "Paper"
+// button.addEventListener("click", function () {
+//     game();
+// });
+// document.body.appendChild(button)
+
+// //Scissor button
+// var button = document.createElement("button");
+// button.textContent = "Scissor"
+// button.addEventListener("click", function () {
+//     game();
+// });
+document.body.appendChild(button)
+
 var button = document.createElement("button");
 button.textContent = "Rock"
-button.addEventListener("click", function () {
-    game();
-});
+button.addEventListener("click", game);
 document.body.appendChild(button)
 
-//Paper button
-var button = document.createElement("button");
-button.textContent = "Paper"
-button.addEventListener("click", function () {
-    game();
-});
-document.body.appendChild(button)
-
-//Scissor button
-var button = document.createElement("button");
-button.textContent = "Scissor"
-button.addEventListener("click", function () {
-    game();
-});
-document.body.appendChild(button)
+const game = () => alert("it works");
