@@ -48,6 +48,9 @@ function game() {
 }
 
 
+console.log(document.querySelector('.message').textContent = 'A Game');
+
+
 var button = document.createElement("button");
 button.textContent = "Rock"
 button.addEventListener("click", function () {
