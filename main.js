@@ -22,7 +22,8 @@ function game() {
     let playerScore = 0;
     let computerScore = 0;
 
-
+    // here removing the logic that plays exactly five rounds.
+    /*
     for (let i = 0; i < 5; i++) {
         const playerSelection = prompt('Enter your choice (Rock, Paper, or Scissors): ');
         const computerSelection = getComputerChoice();
@@ -36,7 +37,7 @@ function game() {
             computerScore++;
         }
     }
-
+*/
     if (playerScore > computerScore) {
         console.log('Congratulations! You win the game.');
     } else if (playerScore < computerScore) {
