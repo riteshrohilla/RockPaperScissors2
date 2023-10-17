@@ -73,11 +73,14 @@ console.log(document.querySelector('.message').textContent = 'A game buttons.');
 // button.addEventListener("click", function () {
 //     game();
 // });
-document.body.appendChild(button)
 
-var button = document.createElement("button");
-button.textContent = "Rock"
-button.addEventListener("click", game);
-document.body.appendChild(button)
 
-const game = () => alert("it works");
+
+// document.body.appendChild(button)
+
+// var button = document.createElement("button");
+// button.textContent = "Rock"
+// button.addEventListener("click", game);
+// document.body.appendChild(button)
+
+// const game = () => alert("it works");
